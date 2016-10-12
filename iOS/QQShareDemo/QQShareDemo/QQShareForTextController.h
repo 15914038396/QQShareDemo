@@ -10,4 +10,5 @@
 
 @interface QQShareForTextController : UIViewController
 
+
 @end
