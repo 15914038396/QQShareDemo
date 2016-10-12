@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "QQShareForTextController.h"
 @interface AppDelegate ()
 
+@property (nonatomic,strong)UIWindow *mainWindow;
 @end
 
 @implementation AppDelegate
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIViewController *shareVc = [[QQShareForTextController alloc]init];
+    self.mainWindow = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.mainWindow setRootViewController:shareVc];
+    [self.mainWindow makeKeyAndVisible];
+    
     return YES;
 }
 

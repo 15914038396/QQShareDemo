@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		81DE7AF41DACE50500B22D5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE7AF31DACE50500B22D5E /* main.m */; };
 		81DE7AF71DACE50500B22D5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE7AF61DACE50500B22D5E /* AppDelegate.m */; };
-		81DE7AFA1DACE50500B22D5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE7AF91DACE50500B22D5E /* ViewController.m */; };
-		81DE7AFD1DACE50500B22D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DE7AFB1DACE50500B22D5E /* Main.storyboard */; };
 		81DE7AFF1DACE50500B22D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DE7AFE1DACE50500B22D5E /* Assets.xcassets */; };
 		81DE7B021DACE50500B22D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DE7B001DACE50500B22D5E /* LaunchScreen.storyboard */; };
 		81DE7B0D1DACE50500B22D5E /* QQShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE7B0C1DACE50500B22D5E /* QQShareDemoTests.m */; };
 		81DE7B181DACE50500B22D5E /* QQShareDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE7B171DACE50500B22D5E /* QQShareDemoUITests.m */; };
+		81DE7B391DAE399700B22D5E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE7B381DAE399700B22D5E /* Security.framework */; };
+		81DE7B3B1DAE39EC00B22D5E /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE7B3A1DAE39EC00B22D5E /* libiconv.tbd */; };
+		81DE7B3D1DAE3A0C00B22D5E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE7B3C1DAE3A0C00B22D5E /* SystemConfiguration.framework */; };
+		81DE7B3F1DAE3A1400B22D5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE7B3E1DAE3A1400B22D5E /* CoreGraphics.framework */; };
+		81DE7B411DAE3A2700B22D5E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE7B401DAE3A2700B22D5E /* libsqlite3.tbd */; };
+		81DE7B431DAE3A2F00B22D5E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE7B421DAE3A2F00B22D5E /* CoreTelephony.framework */; };
+		81DE7B451DAE3A4B00B22D5E /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE7B441DAE3A4B00B22D5E /* libstdc++.tbd */; };
+		81DE7B471DAE3A5700B22D5E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE7B461DAE3A5700B22D5E /* libz.tbd */; };
+		81DE7B491DAE3B3200B22D5E /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81DE7B481DAE3B3200B22D5E /* TencentOpenApi_IOS_Bundle.bundle */; };
+		81DE7B4D1DAE3F5400B22D5E /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DE7B4B1DAE3F5400B22D5E /* TencentOpenAPI.framework */; };
+		81DE7B4E1DAE3F5400B22D5E /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81DE7B4C1DAE3F5400B22D5E /* TencentOpenApi_IOS_Bundle.bundle */; };
+		81DE7B571DAE42D000B22D5E /* QQShareForTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DE7B551DAE42D000B22D5E /* QQShareForTextController.m */; };
+		81DE7B581DAE42D000B22D5E /* QQShareForTextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DE7B561DAE42D000B22D5E /* QQShareForTextController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +50,6 @@
 		81DE7AF31DACE50500B22D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81DE7AF51DACE50500B22D5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81DE7AF61DACE50500B22D5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		81DE7AF81DACE50500B22D5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		81DE7AF91DACE50500B22D5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		81DE7AFC1DACE50500B22D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81DE7AFE1DACE50500B22D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81DE7B011DACE50500B22D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81DE7B031DACE50500B22D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +59,20 @@
 		81DE7B131DACE50500B22D5E /* QQShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DE7B171DACE50500B22D5E /* QQShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQShareDemoUITests.m; sourceTree = "<group>"; };
 		81DE7B191DACE50500B22D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DE7B381DAE399700B22D5E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		81DE7B3A1DAE39EC00B22D5E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		81DE7B3C1DAE3A0C00B22D5E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		81DE7B3E1DAE3A1400B22D5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81DE7B401DAE3A2700B22D5E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		81DE7B421DAE3A2F00B22D5E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		81DE7B441DAE3A4B00B22D5E /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		81DE7B461DAE3A5700B22D5E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		81DE7B481DAE3B3200B22D5E /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = ../../../../Downloads/iOS_SDK_V3.1.0/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		81DE7B4B1DAE3F5400B22D5E /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		81DE7B4C1DAE3F5400B22D5E /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		81DE7B541DAE42D000B22D5E /* QQShareForTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQShareForTextController.h; sourceTree = "<group>"; };
+		81DE7B551DAE42D000B22D5E /* QQShareForTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQShareForTextController.m; sourceTree = "<group>"; };
+		81DE7B561DAE42D000B22D5E /* QQShareForTextController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QQShareForTextController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DE7B3D1DAE3A0C00B22D5E /* SystemConfiguration.framework in Frameworks */,
+				81DE7B4D1DAE3F5400B22D5E /* TencentOpenAPI.framework in Frameworks */,
+				81DE7B471DAE3A5700B22D5E /* libz.tbd in Frameworks */,
+				81DE7B451DAE3A4B00B22D5E /* libstdc++.tbd in Frameworks */,
+				81DE7B431DAE3A2F00B22D5E /* CoreTelephony.framework in Frameworks */,
+				81DE7B411DAE3A2700B22D5E /* libsqlite3.tbd in Frameworks */,
+				81DE7B3F1DAE3A1400B22D5E /* CoreGraphics.framework in Frameworks */,
+				81DE7B3B1DAE39EC00B22D5E /* libiconv.tbd in Frameworks */,
+				81DE7B391DAE399700B22D5E /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +112,12 @@
 		81DE7AE61DACE50500B22D5E = {
 			isa = PBXGroup;
 			children = (
+				81DE7B481DAE3B3200B22D5E /* TencentOpenApi_IOS_Bundle.bundle */,
 				81DE7AF11DACE50500B22D5E /* QQShareDemo */,
 				81DE7B0B1DACE50500B22D5E /* QQShareDemoTests */,
 				81DE7B161DACE50500B22D5E /* QQShareDemoUITests */,
 				81DE7AF01DACE50500B22D5E /* Products */,
+				81DE7B371DAE399700B22D5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +134,12 @@
 		81DE7AF11DACE50500B22D5E /* QQShareDemo */ = {
 			isa = PBXGroup;
 			children = (
+				81DE7B4A1DAE3F5400B22D5E /* Frameworks */,
 				81DE7AF51DACE50500B22D5E /* AppDelegate.h */,
 				81DE7AF61DACE50500B22D5E /* AppDelegate.m */,
-				81DE7AF81DACE50500B22D5E /* ViewController.h */,
-				81DE7AF91DACE50500B22D5E /* ViewController.m */,
-				81DE7AFB1DACE50500B22D5E /* Main.storyboard */,
+				81DE7B541DAE42D000B22D5E /* QQShareForTextController.h */,
+				81DE7B551DAE42D000B22D5E /* QQShareForTextController.m */,
+				81DE7B561DAE42D000B22D5E /* QQShareForTextController.xib */,
 				81DE7AFE1DACE50500B22D5E /* Assets.xcassets */,
 				81DE7B001DACE50500B22D5E /* LaunchScreen.storyboard */,
 				81DE7B031DACE50500B22D5E /* Info.plist */,
@@ -138,6 +172,30 @@
 				81DE7B191DACE50500B22D5E /* Info.plist */,
 			);
 			path = QQShareDemoUITests;
+			sourceTree = "<group>";
+		};
+		81DE7B371DAE399700B22D5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81DE7B461DAE3A5700B22D5E /* libz.tbd */,
+				81DE7B441DAE3A4B00B22D5E /* libstdc++.tbd */,
+				81DE7B421DAE3A2F00B22D5E /* CoreTelephony.framework */,
+				81DE7B401DAE3A2700B22D5E /* libsqlite3.tbd */,
+				81DE7B3E1DAE3A1400B22D5E /* CoreGraphics.framework */,
+				81DE7B3C1DAE3A0C00B22D5E /* SystemConfiguration.framework */,
+				81DE7B3A1DAE39EC00B22D5E /* libiconv.tbd */,
+				81DE7B381DAE399700B22D5E /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81DE7B4A1DAE3F5400B22D5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81DE7B4B1DAE3F5400B22D5E /* TencentOpenAPI.framework */,
+				81DE7B4C1DAE3F5400B22D5E /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +307,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DE7B491DAE3B3200B22D5E /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				81DE7B021DACE50500B22D5E /* LaunchScreen.storyboard in Resources */,
 				81DE7AFF1DACE50500B22D5E /* Assets.xcassets in Resources */,
-				81DE7AFD1DACE50500B22D5E /* Main.storyboard in Resources */,
+				81DE7B4E1DAE3F5400B22D5E /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				81DE7B581DAE42D000B22D5E /* QQShareForTextController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81DE7AFA1DACE50500B22D5E /* ViewController.m in Sources */,
 				81DE7AF71DACE50500B22D5E /* AppDelegate.m in Sources */,
+				81DE7B571DAE42D000B22D5E /* QQShareForTextController.m in Sources */,
 				81DE7AF41DACE50500B22D5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +374,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		81DE7AFB1DACE50500B22D5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81DE7AFC1DACE50500B22D5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		81DE7B001DACE50500B22D5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -426,8 +478,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4PKVLA523H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QQShareDemo/Frameworks",
+				);
 				INFOPLIST_FILE = QQShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-fobjc-arc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.world.QQShareDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -438,8 +496,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4PKVLA523H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QQShareDemo/Frameworks",
+				);
 				INFOPLIST_FILE = QQShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-fobjc-arc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.world.QQShareDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
